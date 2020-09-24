@@ -1,0 +1,24 @@
+<form class="new-note-form" [formGroup]="currentNoteForm" novalidate (ngSubmit)="onSaveClick()">
+    <div class="form-group">
+        <mat-form-field class="new-note-full-width">
+            <mat-label i18n>Title</mat-label>
+            <input class="note-title-style" formControlName="title" [(ngModel)]="note.title" matInput i18n-placeholder placeholder="Note 1">
+            <div class="alert alert-danger"
+                            *ngIf="currentNoteForm.controls['title'].invalid && currentNoteForm.controls['title'].touched" i18n>
+                            Title can not be emtry
+                        </div>
+        </mat-form-field>
+    </div>
+    <div class="form-group">
+        <mat-form-field class="new-note-full-width">
+            <mat-label i18n>Write a note</mat-label>
+            <textarea class="note-text-style" [(ngModel)]="note.noteText" formControlName="noteText" matInput
+            i18n-placeholder placeholder="Write your idea..."></textarea>
+                <div class="alert alert-danger"
+                            *ngIf="currentNoteForm.controls['noteText'].invalid && currentNoteForm.controls['noteText'].touched" i18n>
+                            Text area can not be emtry
+                        </div>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" i18n>Save</button>
+</form>

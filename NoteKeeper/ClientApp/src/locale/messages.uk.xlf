@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="uk" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="f57d55f45fd89fdaf23077d5c67d6557c502f121" datatype="html">
+        <source>NoteKeeper</source>
+        <target>Записник</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fcde58253a4cfd52c228eebdae74e1be7a1ab714" datatype="html">
+        <source>Notes</source>
+        <target>Записки</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2886cba0d103cf5cf8e4727ba84066cdb133a78d" datatype="html">
+        <source>New note</source>
+        <target>Нова записка</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav-menu/nav-menu.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9ddf0277621ad083f4923b04d5d0ba8ad2bd29b" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>Loading...<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <target>ЗаписникХЗ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c579a35156940ef439082b06bdaea30f4f778073" datatype="html">
+        <source>EDIT</source>
+        <target>РЕДАГУВАТИ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a885f0badd50b7d4e00c47665812756271ac382b" datatype="html">
+        <source>DELETE</source>
+        <target>ВИДАЛИТИ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fdf7cbdc140d0aab0f0b6c06065a0fd448ed6a2e" datatype="html">
+        <source>Title</source>
+        <target>Заголовок</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a6e2c7b358791b13ff12e9df9a0af1959e03603" datatype="html">
+        <source>Note 1</source>
+        <target>Записка 1</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a4ef0dca384a3a273d06e94fbdf655f6af83b30" datatype="html">
+        <source>
+                            Title can not be emtry
+                        </source>
+                        <target>Заголовок не може бути порожнім</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99e4500fb321588670bd1d0814d36d09d8688701" datatype="html">
+        <source>Write a note</source>
+        <target>Пишіть записку</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d74bb0346b6c301b6bb41e4c9cbbefe30d9340f3" datatype="html">
+        <source>Write your idea...</source>
+        <target>Пишіть свою ідею...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b68ebf91f29b19a58d08ffcefe82a1ae4fc30ac9" datatype="html">
+        <source>
+                            Text area can not be emtry
+                        </source>
+                        <target>Текст записки не може бути порожнім</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+        <source>Save</source>
+        <target>Зберегти</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/note/note.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

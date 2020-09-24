@@ -1,0 +1,20 @@
+.new-note-form {
+    min-width: 150px;
+    width: 100%;
+  }
+  
+  .new-note-full-width {
+    width: 100%;
+  }
+
+  .note-title-style {
+    font-size: x-large;
+  }
+
+.full-wight-area{
+    width: 100%;
+}
+
+  .note-text-style {
+      min-height: 300px;
+  }
